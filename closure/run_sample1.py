@@ -7,7 +7,6 @@ def test():
 for i in range(1, 5):
     test()
 
-
 @before_call
 def test(name):
     print 'hello, %s' % (name)
